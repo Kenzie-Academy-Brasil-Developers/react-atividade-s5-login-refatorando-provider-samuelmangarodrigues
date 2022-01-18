@@ -1,8 +1,9 @@
-import { Route, Switch, Router } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Dash from "../Dashboard";
 import Login from "../Login";
 const pathHome = "/";
 const dashboard = "/dashboard";
+
 const Rotes = () => {
   return (
     <Switch>
